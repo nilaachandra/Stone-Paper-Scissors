@@ -15,7 +15,7 @@ updateScoreElement();
 function playGame(playerMove) {
     const computerMove = pickComputerMove(); // Get the computer's move
     let result = '';
-
+ //
     // Determine the result of the game based on player and computer moves
     if (playerMove === 'Scissors') {
         if (computerMove === 'Rock') {

@@ -57,7 +57,7 @@ function playGame(playerMove) {
     updateScoreElement();
 
     document.querySelector('.js-results').innerHTML = result;
-    document.querySelector('.js-moves').innerHTML = `You<img src="./${playerMove}-emoji.png" class="move-icon"> <img src="./${computerMove}-emoji.png" class="move-icon">Computer`;
+    document.querySelector('.js-moves').innerHTML = `You <img src="${playerMove}-emoji.png" class="move-icon"> <img src="${computerMove}-emoji.png" class="move-icon">Computer`;
 
 
     // Display game result and scores in an alert

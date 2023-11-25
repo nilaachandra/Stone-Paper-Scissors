@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Assistant&family=Martel+Sans&family=Poppins&family=Space+Grotesk&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    color: black;
+    font-family: 'Space Grotesk','Poppins', Arial, Helvetica, sans-serif;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.move-icon{
+    height: 50px;
+}
+.btn{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 3px solid black;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.js-results{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.js-moves{
+    margin-top: 30px;
+}
+.js-score{
+    margin-top: 30px;
+}
+.reset{
+    margin-top: 30px;
+    height: 40px;
+    width: 100px;
+    background-color: greenyellow;
+    border-radius: 7px;
+    border: 2px solid greenyellow;
+}
+div{
+    height: auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

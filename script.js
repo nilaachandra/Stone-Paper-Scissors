@@ -57,7 +57,7 @@ function playGame(playerMove) {
     updateScoreElement();
 
     document.querySelector('.js-results').innerHTML = result;
-    document.querySelector('.js-moves').innerHTML = `You- ${playerMove} &nbsp;&nbsp;&nbsp;&nbsp; ${computerMove} -Computer`;
+    document.querySelector('.js-moves').innerHTML = `You-${playerMove}&nbsp;&nbsp;&nbsp;&nbsp;${computerMove}-Computer`;
 
 
     // Display game result and scores in an alert
